@@ -6,7 +6,7 @@ require("./styles.css");
 class Modal extends React.PureComponent {
   render() {
     const { score, handleRePlayClick } = this.props;
-    const twitt = `Tu score: ${score}`;
+    const twitt = `Mi score fue de: ${score} by @NatiGuidaa`;
     const href = `https://twitter.com/intent/tweet?button_hashtag=ArrowGame ${twitt}&ref_src=twsrc%5Etfw`;
     return (
       <section className="modal-container">
