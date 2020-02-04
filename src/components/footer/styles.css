@@ -1,0 +1,16 @@
+.footer-container {
+  padding: 0;
+  margin: 20px 0px 0px 0px;
+  color: #808080;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-container a {
+  margin-left: 4px;
+  color: #808080;
+} 
+
+.footer-container a:hover {
+  color: #555454;
+} 

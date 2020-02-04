@@ -1,0 +1,31 @@
+.game-container {
+  display: flex;
+  height: 96px;
+  overflow: hidden;
+  width: 100%;
+  flex-flow: column wrap;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px 0px 5px 5px;
+}
+
+.game-container div  {
+  width: 96px;
+  height: 96px;
+}
+
+.game-container div svg {
+  height: 100%;
+  width: 100%;
+}
+
+.game-container .key-success {
+  background: #b6de88;
+  border-radius: 50%;
+}
+
+.game-container .key-fail {
+  background: #ea655b;
+  border-radius: 50%;
+}

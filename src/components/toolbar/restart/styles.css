@@ -1,0 +1,48 @@
+.restart-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.restart-container .button-container {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 12px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  background-color: white;
+} 
+
+.restart-container .button-container:focus {
+  outline: 0;
+} 
+
+.restart-container .button-container:active {
+  background-color: #f1f1f1;
+} 
+
+.restart-container .button-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+} 
+
+.restart-container .button-disabled:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  cursor: no-drop;
+} 
+
+.restart-container .button-container svg {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+} 
+
+.restart-container .button-disabled svg path { 
+ fill: #0000001a;
+} 
