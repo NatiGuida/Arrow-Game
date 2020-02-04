@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6c00a9059f57151ad1c37958248cca4",
+    "revision": "657997a320ea2a6067cba4b64de20345",
     "url": "/Arrow-Game/index.html"
   },
   {
-    "revision": "8c3d03674299fe811fca",
-    "url": "/Arrow-Game/static/css/main.2ec7d1bf.chunk.css"
+    "revision": "72d3b8b2a1b7dcae3f5d",
+    "url": "/Arrow-Game/static/css/main.9c9a71a4.chunk.css"
   },
   {
-    "revision": "2d98dde6cabf5e2aaad9",
-    "url": "/Arrow-Game/static/js/2.472cce64.chunk.js"
+    "revision": "d199d6fc070cd166d926",
+    "url": "/Arrow-Game/static/js/2.c32e2420.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/Arrow-Game/static/js/2.472cce64.chunk.js.LICENSE"
+    "url": "/Arrow-Game/static/js/2.c32e2420.chunk.js.LICENSE"
   },
   {
-    "revision": "8c3d03674299fe811fca",
-    "url": "/Arrow-Game/static/js/main.084badfd.chunk.js"
+    "revision": "72d3b8b2a1b7dcae3f5d",
+    "url": "/Arrow-Game/static/js/main.4bf91a98.chunk.js"
   },
   {
     "revision": "9c32ce9b8f35219f3a02",
