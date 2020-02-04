@@ -1,10 +1,12 @@
 const React = require('react');
-const Star = require('../../../img/brillante.png')
+const Star = require('../../../img/brillante.png');
 require('./styles.css');
 
 class BestScore extends React.PureComponent {
+
   render() {
-    const { lastScore } = this.props;
+    const localScore = localStorage.getItem('bestScore');
+
     return (
       <section className='best-score-container'>
         <div className='best'>
@@ -12,7 +14,11 @@ class BestScore extends React.PureComponent {
           Mejor puntuacion
         </div>
         <div className='score'>
-          {lastScore}
+          {localScore === null ? (
+            0
+          ) : (
+            <React.Fragment>{localScore} </React.Fragment>
+          )}
         </div>
       </section>
     );

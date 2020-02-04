@@ -138,7 +138,7 @@ class Application extends React.PureComponent {
         lastScore: score,
       });
     } else {
-      localStorage.setItem('score', localScore);
+      localStorage.setItem('bestScore', localScore);
     }
   }
 
@@ -191,7 +191,7 @@ class Application extends React.PureComponent {
     return (
       <React.Fragment>
         {timer !== 10 && !run && 
-          <div className="invisible-cap" />
+          <div className='invisible-cap' />
         }
         <section className='application-container'>
           <Header />
