@@ -1,5 +1,6 @@
 const React = require("react");
 const Restart = require("../toolbar/restart");
+const Twitter = require('../../img/twitter.png')
 require("./styles.css");
 
 class Modal extends React.PureComponent {
@@ -11,23 +12,25 @@ class Modal extends React.PureComponent {
       <section className="modal-container">
         <div className="modal">
           <span>Se acabo el tiempo!</span>
-          <span>Tu puntaje fue de : {score}</span>
-          <Restart 
-            handleRePlayClick={handleRePlayClick}
-          />
-          <a
-            href={href}
-            class="twitter-hashtag-button"
-            data-show-count="false"
-            target="_blanck"
-          >
-            Compartir
-          </a>
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
-          ></script>
+          <span>Tu puntaje fue de: <b>{score}</b></span>
+          <div className="modal-button-container">
+            <a
+              href={href}
+              class="twitter-hashtag-button"
+              data-show-count="false"
+              target="_blanck"
+              className="twitter-button"
+            >
+              <img src={Twitter} alt='twitter' />
+              Compartir
+            </a>
+            <script
+              async
+              src="https://platform.twitter.com/widgets.js"
+              charset="utf-8"
+            ></script>
+            <Restart handleRePlayClick={handleRePlayClick} />
+          </div>
         </div>
       </section>
     );
