@@ -1,7 +1,7 @@
-const React = require('react');
-require('./styles.css');
+import React from 'react';
+import './styles.css';
 
-class Accountant extends React.PureComponent {
+export default class Accountant extends React.PureComponent {
   render() {
     const { timer } = this.props;
     return (
@@ -14,4 +14,3 @@ class Accountant extends React.PureComponent {
   }
 }
 
-module.exports = Accountant;

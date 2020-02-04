@@ -1,13 +1,13 @@
-const React = require('react');
-const Header = require('../components/header');
-const Toolbar = require('../components/toolbar');
-const Game = require('../components/game');
-const Score = require('../components/score');
-const Modal = require('../components/modal');
-const Footer = require('../components/footer');
-require('./styles.css');
+import React from 'react';
+import Header from '../components/header';
+import Toolbar from '../components/toolbar';
+import Game from '../components/game';
+import Score from '../components/score';
+import Modal from '../components/modal';
+import Footer from '../components/footer';
+import './styles.css';
 
-class Application extends React.PureComponent {
+export default class Application extends React.PureComponent {
   constructor(props) {
     super(props); 
 
@@ -226,5 +226,3 @@ class Application extends React.PureComponent {
     );
   }
 }
-
-module.exports = Application;

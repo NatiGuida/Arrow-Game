@@ -1,11 +1,11 @@
-const React = require('react');
-const Up = require('./arrows/up');
-const Right = require('./arrows/right');
-const Down = require('./arrows/down');
-const Left = require('./arrows/left');
-require('./styles.css');
+import React from 'react';
+import Up from './arrows/up';
+import Right from './arrows/right';
+import Down from './arrows/down';
+import Left from './arrows/left';
+import  './styles.css';
 
-class Game extends React.PureComponent {
+export default class Game extends React.PureComponent {
 
   constructor(props) {
     super(props); 
@@ -128,4 +128,3 @@ class Game extends React.PureComponent {
   }
 }
 
-module.exports = Game;

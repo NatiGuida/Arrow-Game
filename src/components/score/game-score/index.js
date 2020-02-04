@@ -1,8 +1,8 @@
-const React = require('react');
-const Check = require('../../../img/garrapata.png')
-require('./styles.css');
+import React from 'react';
+import Check from '../../../img/garrapata.png';
+import './styles.css';
 
-class GameScore extends React.PureComponent {
+export default class GameScore extends React.PureComponent {
   render() {
     const { score } = this.props; 
     return (
@@ -17,4 +17,3 @@ class GameScore extends React.PureComponent {
   }
 }
 
-module.exports = GameScore;

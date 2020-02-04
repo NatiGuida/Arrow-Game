@@ -1,9 +1,9 @@
-const React = require('react');
-const BestScore = require('./best-score');
-const GameScore = require('./game-score');
-require('./styles.css');
+import React from 'react';
+import BestScore from './best-score';
+import GameScore from './game-score';
+import  './styles.css';
 
-class Score extends React.PureComponent {
+export default class Score extends React.PureComponent {
   render() {
     const { score, lastScore } = this.props;
     return (
@@ -14,5 +14,3 @@ class Score extends React.PureComponent {
     );
   }
 }
-
-module.exports = Score;

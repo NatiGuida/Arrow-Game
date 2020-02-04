@@ -1,7 +1,7 @@
-const React = require('react');
-require('./styles.css');
+import React from 'react';
+import './styles.css';
 
-class Restart extends React.PureComponent {
+export default class Restart extends React.PureComponent {
 
   render() {
     const { handleRePlayClick, desabledRePlay  } = this.props;
@@ -16,4 +16,3 @@ class Restart extends React.PureComponent {
   }
 }
 
-module.exports = Restart;

@@ -1,9 +1,9 @@
-const React = require('react');
-const Restart = require('../toolbar/restart');
-const Twitter = require('../../img/twitter.png')
-require('./styles.css');
+import React from 'react';
+import Restart from'../toolbar/restart';
+import Twitter from'../../img/twitter.png'
+import './styles.css';
 
-class Modal extends React.PureComponent {
+export default class Modal extends React.PureComponent {
   render() {
     const { score, handleRePlayClick } = this.props;
     const twitt = `Mi score fue de: ${score} by @NatiGuidaa`;
@@ -36,4 +36,3 @@ class Modal extends React.PureComponent {
   }
 }
 
-module.exports = Modal;

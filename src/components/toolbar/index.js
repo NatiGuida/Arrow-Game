@@ -1,9 +1,9 @@
-const React = require('react');
-const Accountant = require('./accountant');
-const Restart = require('./restart');
-require('./styles.css');
+import React from 'react';
+import Accountant from'./accountant';
+import Restart from'./restart';
+import './styles.css';
 
-class Toolbar extends React.PureComponent {
+export default class Toolbar extends React.PureComponent {
   render() {
     const { timer, handleRePlayClick, desabledRePlay } = this.props;
     return (
@@ -18,4 +18,3 @@ class Toolbar extends React.PureComponent {
   }
 }
 
-module.exports = Toolbar;

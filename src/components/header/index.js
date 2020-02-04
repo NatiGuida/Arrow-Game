@@ -1,7 +1,7 @@
-const React = require('react');
-require('./styles.css');
+import React from 'react';
+import './styles.css';
 
-class Header extends React.PureComponent {
+export default class Header extends React.PureComponent {
   render() {
     return (
       <section>
@@ -15,4 +15,3 @@ class Header extends React.PureComponent {
   }
 }
 
-module.exports = Header;

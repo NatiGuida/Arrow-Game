@@ -1,8 +1,8 @@
-const React = require('react');
-const Star = require('../../../img/brillante.png');
-require('./styles.css');
+import React from 'react';
+import Star from '../../../img/brillante.png';
+import './styles.css';
 
-class BestScore extends React.PureComponent {
+export default class BestScore extends React.PureComponent {
 
   render() {
     const localScore = localStorage.getItem('bestScore');
@@ -25,4 +25,3 @@ class BestScore extends React.PureComponent {
   }
 }
 
-module.exports = BestScore;

@@ -1,7 +1,7 @@
-const React = require('react');
-require('./styles.css');
+import React from 'react';
+import './styles.css';
 
-class Footer extends React.PureComponent {
+export default class extends React.PureComponent {
   render() {
     return (
       <section className='footer-container'>
@@ -11,4 +11,4 @@ class Footer extends React.PureComponent {
   }
 }
 
-module.exports = Footer;
+
