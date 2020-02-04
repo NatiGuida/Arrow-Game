@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Arrow-Game/static/css/main.2ec7d1bf.chunk.css",
+    "main.js": "/Arrow-Game/static/js/main.084badfd.chunk.js",
+    "main.js.map": "/Arrow-Game/static/js/main.084badfd.chunk.js.map",
+    "runtime-main.js": "/Arrow-Game/static/js/runtime-main.b554b8ca.js",
+    "runtime-main.js.map": "/Arrow-Game/static/js/runtime-main.b554b8ca.js.map",
+    "static/js/2.472cce64.chunk.js": "/Arrow-Game/static/js/2.472cce64.chunk.js",
+    "static/js/2.472cce64.chunk.js.map": "/Arrow-Game/static/js/2.472cce64.chunk.js.map",
+    "index.html": "/Arrow-Game/index.html",
+    "precache-manifest.14c6eda53694b39578a52e48c0d6e851.js": "/Arrow-Game/precache-manifest.14c6eda53694b39578a52e48c0d6e851.js",
+    "service-worker.js": "/Arrow-Game/service-worker.js",
+    "static/css/main.2ec7d1bf.chunk.css.map": "/Arrow-Game/static/css/main.2ec7d1bf.chunk.css.map",
+    "static/js/2.472cce64.chunk.js.LICENSE": "/Arrow-Game/static/js/2.472cce64.chunk.js.LICENSE",
+    "static/media/brillante.png": "/Arrow-Game/static/media/brillante.3f7dcb26.png",
+    "static/media/twitter.png": "/Arrow-Game/static/media/twitter.9ebfda75.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b554b8ca.js",
+    "static/js/2.472cce64.chunk.js",
+    "static/css/main.2ec7d1bf.chunk.css",
+    "static/js/main.084badfd.chunk.js"
+  ]
+}
