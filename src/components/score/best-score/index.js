@@ -5,7 +5,7 @@ import './styles.css';
 export default class BestScore extends React.PureComponent {
 
   render() {
-    const localScore = localStorage.getItem('bestScore');
+    const localScore = localStorage.getItem('bestScore') || 0;
 
     return (
       <section className='best-score-container'>
@@ -14,11 +14,7 @@ export default class BestScore extends React.PureComponent {
           Mejor puntuacion
         </div>
         <div className='score'>
-          {localScore === null ? (
-            0
-          ) : (
-            <React.Fragment>{localScore} </React.Fragment>
-          )}
+          {localScore}
         </div>
       </section>
     );
